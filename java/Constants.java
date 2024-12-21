@@ -1,4 +1,4 @@
-package org.store.chromium;
+package org.counter.tally;
 
 public abstract class Constants {
 
