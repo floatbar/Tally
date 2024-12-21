@@ -1,5 +1,5 @@
 <resources>
-    <style name="Base.Theme.Chromium" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Tally" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">#2962FF</item>
         <item name="android:windowBackground">@color/black</item>
     </style>
