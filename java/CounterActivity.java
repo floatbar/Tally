@@ -55,12 +55,6 @@ public class CounterActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void increaseCounter() {
-        counter = String.valueOf(Integer.parseInt(counter) + 1);
-        textView.setText(counter);
-        sharedPreferences.edit().putString(Constants.COUNTER_PREF_KEY, counter).apply();
-    }
-
     private void decreaseCounter() {
         final int counterResult = Integer.parseInt(counter);
         if (counterResult > 0) {
@@ -74,5 +68,11 @@ public class CounterActivity extends AppCompatActivity {
         textView.setText("0");
         counter = "0";
         sharedPreferences.edit().putString(Constants.COUNTER_PREF_KEY, "0").apply();
+    }
+
+    private void increaseCounter() {
+        counter = String.valueOf(Integer.parseInt(counter) + 1);
+        textView.setText(counter);
+        sharedPreferences.edit().putString(Constants.COUNTER_PREF_KEY, counter).apply();
     }
 }
