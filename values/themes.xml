@@ -2,6 +2,7 @@
     <style name="Base.Theme.Tally" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">#0DC3DF</item>
         <item name="android:windowBackground">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
     </style>
 
     <style name="ToolbarTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
