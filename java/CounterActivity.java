@@ -1,4 +1,4 @@
-package org.store.chromium;
+package counter.tally.chromium;
 
 import android.content.Context;
 import android.content.SharedPreferences;
