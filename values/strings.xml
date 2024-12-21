@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tally</string>
+    <string name="close_app">Close app</string>
+    <string name="example_counter_result">5000000</string>
+</resources>
