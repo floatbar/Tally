@@ -6,6 +6,6 @@ public abstract class Constants {
     protected static final String COUNTER_PREF_KEY = "counter";
 
     public Constants() {
-        throw new RuntimeException();
+        throw new RuntimeException("You may not create a new Constants instance.");
     }
 }
